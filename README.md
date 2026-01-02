@@ -19,6 +19,14 @@
 - [x] 제네릭 기본 개념 (<T>)
 - [x] 제네릭 함수
 - [x] 제네릭 인터페이스
-- [ ] 제네릭 제약 (extends)
-- [ ] keyof 연산자
-- [ ] 제네릭 클래스
+- [x] 제네릭 제약 (extends)
+- [x] keyof 연산자
+- [x] 제네릭 클래스
+
+### ✅ Day 4: 유틸리티 타입
+- [ ] Partial, Required, Readonly
+- [ ] Pick, Omit
+- [ ] Record
+- [ ] Exclude, Extract
+- [ ] NonNullable
+- [ ] ReturnType, Parameters
