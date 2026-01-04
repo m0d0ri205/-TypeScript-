@@ -1,4 +1,4 @@
-import crypto from "crypto";
+import * as crypto from "crypto";
 
 interface BlockShape {
   hash: string;
@@ -17,6 +17,38 @@ class Block implements BlockShape {
   }
   static calculateHash(prevHash: string, height: number, data: string) {
     const toHash = `${prevHash}${height}${data}`;
+    return crypto.createHash("sha256").update(toHash).digest("hex");
+  }
+}
+class Blockchain {
+  private blocks: Block[];
+  constructor() {
+    this.blocks = []; // 빈 배열로 초기화
+  }
+  private getPrevHash() {
+    if (this.blocks.length === 0) return "";
+    return this.blocks[this.blocks.length - 1].hash;
+  }
+  public addBlock(data: string) {
+    const newBlock = new Block(
+      this.getPrevHash(),
+      this.blocks.length + 1,
+      data
+    );
+    this.blocks.push(newBlock);
+  }
+  public getBlocks() {
+    // return [...this.blocks];
+    return this.blocks;
   }
 }
 
+const blockchain = new Blockchain();
+
+blockchain.addBlock("첫 번째 블록");
+blockchain.addBlock("두 번째 블록");
+blockchain.addBlock("세 번째 블록");
+
+blockchain.getBlocks().push(new Block("hacking test", 11111, "hacking data"));
+
+console.log(blockchain.getBlocks());

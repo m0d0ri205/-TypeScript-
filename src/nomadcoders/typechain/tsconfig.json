@@ -2,12 +2,12 @@
     "include": ["src"],
     "compilerOptions": {
         "target": "ES6",
-        // "module": "CommonJS",
+        "module": "CommonJS",
         "outDir": "build",
         "rootDir": "./src",
         "lib": ["ES6", "dom"],
         "strict": true,
-        "allowJs": true,
+        // "allowJs": true,
         "esModuleInterop": true, 
         "skipLibCheck": true,
         "forceConsistentCasingInFileNames": true
