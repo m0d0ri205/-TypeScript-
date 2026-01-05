@@ -32,12 +32,12 @@
 - [x] 제네릭 클래스
 
 ### ✅ Day 4: 유틸리티 타입
-- [ ] Partial, Required, Readonly
-- [ ] Pick, Omit
-- [ ] Record
-- [ ] Exclude, Extract
-- [ ] NonNullable
-- [ ] ReturnType, Parameters
+- [x] Partial, Required, Readonly
+- [x] Pick, Omit
+- [x] Record
+- [x] Exclude, Extract
+- [x] NonNullable
+- [x] ReturnType, Parameters
 
 ### ✅ Day 5: 고급 타입
 - [ ] 조건부 타입 (Conditional Types)
