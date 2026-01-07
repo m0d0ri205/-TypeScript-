@@ -40,9 +40,18 @@
 - [x] ReturnType, Parameters
 
 ### ✅ Day 5: 고급 타입
-- [ ] 조건부 타입 (Conditional Types)
-- [ ] infer 키워드
-- [ ] Mapped Types
-- [ ] 분산 조건부 타입
-- [ ] Template Literal Types
-- [ ] 실전 DTO 패턴
+- [x] 조건부 타입 (Conditional Types)
+- [x] infer 키워드
+- [x] Mapped Types
+- [x] 분산 조건부 타입
+- [x] Template Literal Types
+- [x] 실전 DTO 패턴
+
+
+### ✅ Day 6: 클래스와 데코레이터
+- [ ] 클래스 선언
+- [ ] public, private, protected
+- [ ] abstract 클래스
+- [ ] 인터페이스 구현 (implements)
+- [ ] getter/setter
+- [ ] 데코레이터 기초 (experimentalDecorators)

@@ -1,4 +1,5 @@
 // ✅ 조건부 타입
+/*
 type Result = T extends U ? X : Y;
 
 // ✅ infer (타입 추론)
@@ -11,3 +12,4 @@ type Readonly<T> = {
 
 // ✅ Template Literal
 type Event = `on${Capitalize<string>}`;
+*/
