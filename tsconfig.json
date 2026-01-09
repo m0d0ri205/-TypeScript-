@@ -40,6 +40,10 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
+
+    // Decorator Support
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
   },
   "exclude": [
     "nomadcoders/**/*",

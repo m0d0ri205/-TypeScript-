@@ -11,7 +11,7 @@ class Animal {
   ) {}
 
   makeSound(): void {
-    console.log("동물이 소리를 냅니다");
+    console.log("돼지는 영어로 피그");
   }
 
   getInfo(): string {
