@@ -3,7 +3,10 @@
     "allow": [
       "Bash(npx tsc:*)",
       "Bash(node:*)",
-      "Bash(npx ts-node:*)"
+      "Bash(npx ts-node:*)",
+      "WebFetch(domain:ctf.mf.grsu.by)",
+      "Bash(curl:*)",
+      "Bash(cat:*)"
     ]
   }
 }
