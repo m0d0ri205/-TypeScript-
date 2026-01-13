@@ -49,19 +49,19 @@
 
 
 ### ✅ Day 6: 클래스와 데코레이터
-- [ ] 클래스 선언
-- [ ] public, private, protected
-- [ ] abstract 클래스
-- [ ] 인터페이스 구현 (implements)
-- [ ] getter/setter
-- [ ] 데코레이터 기초 (experimentalDecorators)
+- [x] 클래스 선언
+- [x] public, private, protected
+- [x] abstract 클래스
+- [x] 인터페이스 구현 (implements)
+- [x] getter/setter
+- [x] 데코레이터 기초 (experimentalDecorators)
 
 
 ### ✅ Day 7: 모듈과 선언 파일
-- [ ] export/import 문법
-- [ ] Named vs Default export
-- [ ] .d.ts 파일 역할
-- [ ] declare 키워드
-- [ ] Declaration merging
-- [ ] @types 패키지 이해
-- [ ] Week 0 총 복습
+- [x] export/import 문법
+- [x] Named vs Default export
+- [x] .d.ts 파일 역할
+- [x] declare 키워드
+- [x] Declaration merging
+- [x] @types 패키지 이해
+- [x] Week 0 총 복습
